@@ -79,7 +79,7 @@ export default function Home() {
   const handleClose = () => setOpen(false)
   return (
     <Box>
-      <Typography variant="h1">Inventory Management App</Typography>
+      <Typography variant="h1">Inventory Management</Typography>
     </Box>
   )
 }
