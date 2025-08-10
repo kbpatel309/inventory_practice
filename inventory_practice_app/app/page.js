@@ -30,6 +30,7 @@ const style = {
 
 
 
+
 export default function Home() {
   // We'll add our component logic here
   const [inventory, setInventory] = useState([])
