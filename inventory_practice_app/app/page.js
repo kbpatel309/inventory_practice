@@ -76,8 +76,6 @@ export default function Home() {
 
   const handleOpen = () => setOpen(true)
   const handleClose = () => setOpen(false)
-
-  
   
   return (
     <Box
@@ -99,6 +97,9 @@ export default function Home() {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Add Item
           </Typography>
+          <Stack width="100%" direction={'row'} spacing={2}>
+            
+          </Stack>
         </Box>
       </Modal>
       <Typography variant="h1">Inventory Management</Typography>
