@@ -98,8 +98,7 @@ export default function Home() {
             Add Item
           </Typography>
           <Stack width="100%" direction={'row'} spacing={2}>
-            
-            
+            <TextField />
           </Stack>
         </Box>
       </Modal>
