@@ -98,7 +98,14 @@ export default function Home() {
             Add Item
           </Typography>
           <Stack width="100%" direction={'row'} spacing={2}>
-            <TextField />
+            <TextField
+              id="outlined-basic"
+              label="Item"
+              variant="outlined"
+              fullWidth
+              value={itemName}
+              onChange={(e) => setItemName(e.target.value)} 
+            />
           </Stack>
         </Box>
       </Modal>
