@@ -119,6 +119,9 @@ export default function Home() {
           </Stack>
         </Box>
       </Modal>
+      <Button variant="contained" onClick={handleOpen}>
+        Add New Item
+      </Button>
       <Typography variant="h1">Inventory Management</Typography>
     </Box>
   )
