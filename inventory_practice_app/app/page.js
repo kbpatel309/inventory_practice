@@ -122,6 +122,18 @@ export default function Home() {
       <Button variant="contained" onClick={handleOpen}>
         Add New Item
       </Button>
+      <Box border={'1px solid #333'}>
+        <Box
+          width="800px"
+          height="100px"
+          bgcolor={'#ADD8#6'}
+          display={'flex'}
+          justifyContent={'center'}
+          alignItems={'center'}
+        >
+          
+        </Box>
+      </Box>
       <Typography variant="h1">Inventory Management</Typography>
     </Box>
   )
