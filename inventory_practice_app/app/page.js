@@ -137,7 +137,10 @@ export default function Home() {
         </Box>
         <Stack width="800px" height="300px" spacing={2} overflow={'auto'}>
           {inventory.map(({name, quantity}) => (
-            <Box>
+            <Box
+              key={name}
+              width="100%"
+            >
               
             </Box>
           ))}
