@@ -140,6 +140,12 @@ export default function Home() {
             <Box
               key={name}
               width="100%"
+              minHeight="150px"
+              display={'flex'}
+              justifyContent={'space-between'}
+              alignItems={'center'}
+              bgcolor={'#f0f0f0'}
+              paddingX={5}
             >
               
             </Box>
