@@ -147,7 +147,9 @@ export default function Home() {
               bgcolor={'#f0f0f0'}
               paddingX={5}
             >
-              
+              <Typography variant={h3} color={'#333'} textAlign={'center'}>
+                {name.charAt(0).toUpperCase() + name.slice(1)}
+              </Typography>
             </Box>
           ))}
         </Stack>
