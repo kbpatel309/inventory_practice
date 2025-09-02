@@ -150,6 +150,12 @@ export default function Home() {
               <Typography variant={h3} color={'#333'} textAlign={'center'}>
                 {name.charAt(0).toUpperCase() + name.slice(1)}
               </Typography>
+              <Typography variant={'h3'} color={'#333'} textAlign={'center'}>
+                Quantity: {quantity}
+              </Typography>
+              <Button variant="contained" onClick={() => removeItem(name)}>
+                Remove
+              </Button>
             </Box>
           ))}
         </Stack>
